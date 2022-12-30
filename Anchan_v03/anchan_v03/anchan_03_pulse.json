@@ -1,0 +1,133 @@
+{
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "Time": {
+    "Hours": {
+      "Tens": {
+        "X": 12,
+        "Y": 88,
+        "ImageIndex": 1,
+        "ImagesCount": 3
+      },
+      "Ones": {
+        "X": 64,
+        "Y": 88,
+        "ImageIndex": 1,
+        "ImagesCount": 10
+      }
+    },
+    "Minutes": {
+      "Tens": {
+        "X": 12,
+        "Y": 146,
+        "ImageIndex": 1,
+        "ImagesCount": 6
+      },
+      "Ones": {
+        "X": 64,
+        "Y": 146,
+        "ImageIndex": 1,
+        "ImagesCount": 10
+      }
+    }
+  },
+  "Date": {
+    "MonthAndDay": {
+        "TwoDigitsMonth": true,
+        "TwoDigitsDay": true,
+        "Separate": {
+            "Day": {
+                "TopLeftX": 42,
+                "TopLeftY": 60,
+                "BottomRightX": 78,
+                "BottomRightY": 77,
+                "Alignment": "Center",
+                "Spacing": 2,
+                "ImageIndex": 11,
+                "ImagesCount": 10
+            }
+        }
+    },
+    "WeekDay": {
+      "X": 0,
+      "Y": 40,
+      "ImageIndex": 28,
+      "ImagesCount": 21
+  }
+},
+  "StepsProgress": {
+    "Linear": {
+        "StartImageIndex": 23,
+        "Segments": [
+            {
+                "X": 19.5,
+                "Y": 222
+            },
+            {
+                "X": 36.7,
+                "Y": 222
+            },
+            {
+                "X": 53.9,
+                "Y": 222
+            },
+            {
+                "X": 71.1,
+                "Y": 222
+            },
+            {
+                "X": 88.3,
+                "Y": 222
+            }
+        ]
+    }
+  },
+  "Activity": {
+    "Distance": {
+        "Number": {
+            "TopLeftX": 21,
+            "TopLeftY": 199,
+            "BottomRightX": 125,
+            "BottomRightY": 214,
+            "Alignment": "TopLeft",
+            "Spacing": 1,
+            "ImageIndex": 11,
+            "ImagesCount": 10
+        },
+        "KmSuffixImageIndex": 21,
+        "DecimalPointImageIndex": 22
+    },
+    "Pulse": {
+      "Number": {
+        "TopLeftX": 23,
+        "TopLeftY":17,
+        "BottomRightX": 98,
+        "BottomRightY": 38,
+        "Alignment": "Center",
+        "Spacing": 2,
+        "ImageIndex": 11,
+        "ImagesCount": 10
+      }
+    }
+  },
+  "Status": {
+    "Battery": {
+      "BatteryConfig": {
+        "BoxWidth": 0,
+        "Alignment": 0,
+        "Order": 0
+      },
+      "Icon": {
+        "X": 35,
+        "Y": 3,
+        "ImageIndex": 52,
+        "ImagesCount": 11
+      }
+    }
+  }
+}
